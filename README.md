@@ -1,5 +1,5 @@
 # go加载器bypass
-最近刚开始学习go语言写加载器，参考了几篇文章，利用-race和载荷分离远程下载shellcode编译
+最近刚开始学习go语言写加载器，参考了几篇文章，利用线程注入和-race、载荷分离远程下载shellcode进行编译
 
 1、首先用cs生成raw的shellcode上传到自己的vps服务器上
 
